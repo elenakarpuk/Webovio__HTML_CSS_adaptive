@@ -1,0 +1,32 @@
+@media (max-width: 2560px) {
+   /*.project .container {
+        max-width: 1920px;
+    }
+    .project__wrapper {
+        justify-content: center;
+    }*/
+}
+@media (max-width: 1920px) {
+    .investors .container {
+        width: 90%;
+    }
+    .investors__list {
+        justify-content: flex-start;
+    }
+    /*.project .container {
+        max-width: 100%;
+    }
+    .project__wrapper {
+        justify-content: start;
+    }*/
+}
+@media (max-width: 1440px) {
+   
+}  
+
+@media (max-width: 1024px) {
+}
+/*-------------------------------------------*/
+@media (max-width: 768px) {
+}
+/*------------------------------------------------------*
