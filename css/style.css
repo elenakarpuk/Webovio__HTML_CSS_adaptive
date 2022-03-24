@@ -175,7 +175,7 @@ body {
 }
 /*----------------------------------------------*/
 .investors {
-    margin-bottom: 120px;
+    margin-bottom: 250px;
     position: relative;
 }
 .investors .container {
@@ -201,6 +201,66 @@ body {
 /*----------------------------------------------------------*/
 .about {
     margin-bottom: 350px;
+}
+.about .container {
+    display: flex;
+    justify-content: space-between;
+}
+.about__item {
+    max-width: 475px;
+}
+.about__subtitle {
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+.about__title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 46px;
+    max-width: 390px;
+    margin-bottom: 35px;
+}
+.about__text {
+    margin-bottom: 40px;
+    color: #213842;
+    opacity: 0.6;
+}
+.about__link {
+}
+.link {
+}
+.about__link .link__img {
+    background-image: url(../img/arrow-gray.png);
+}
+
+.link__img {
+}
+.link__text {
+}
+.about__rewiew {
+    max-width: 475px;
+    padding: 0 50px;
+}
+.about__rewiew .review__text {
+    margin-bottom: 60px;
+    font-size: 24px;
+    line-height: 40px;
+}
+
+.about__rewiew .review__img {
+    margin-right: 30px;
+}
+.review__item {
+    justify-content: center;
+}
+.about__rewiew .review__name {
+    font-size: 22px;
+    line-height: 33px;
+    margin-bottom: 6px;
+}
+.about__rewiew .review__post {
+    font-size: 18px;
+    line-height: 24px;
 }
 /*----------------------------------------------------------*/
 .caption {
@@ -247,15 +307,15 @@ body {
     position: absolute;
     bottom: -65px;
     right: -40px;
-}
-.review {
     background-color: #fff;
     border-radius: 8px;
     padding: 30px;
+    box-shadow: 50px 50px 100px rgba(0, 0, 0, 0.145947);
+    width: 453px;
+}
+.review {
     display: flex;
     flex-direction: column;
-    width: 453px;
-    box-shadow: 50px 50px 100px rgba(0, 0, 0, 0.145947);
 }
 
 .review__text {
